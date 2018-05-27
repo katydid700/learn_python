@@ -1,4 +1,8 @@
-
+# coding=UTF-8
+"""可变参数
+定义的函数里面能够有任意数量的变量,
+可以通过使用星号来实现
+"""
 
 def total(a=5, *numbers, **phonebook):
     print('a',a)
