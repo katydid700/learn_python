@@ -1,3 +1,6 @@
+"""list
+
+"""
 shoplist = ['apple', 'mango', 'carrot', 'banana']
 
 print('i have ', len(shoplist),'items to purchase.')

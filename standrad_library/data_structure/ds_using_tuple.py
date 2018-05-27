@@ -1,4 +1,8 @@
-
+# coding=UTF-8
+"""tuple
+元组是不可变的
+括号内部用逗号隔开
+"""
 zoo = ('python', 'elephant', 'penguin')
 print('number of animals in the zoo is', len(zoo))
 new_zoo = 'monkey', 'camel', zoo

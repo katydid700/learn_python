@@ -1,3 +1,8 @@
+# coding=UTF-8
+"""字符串
+
+"""
+
 name = 'Swaroop'
 
 if name.startswith('Swa'):
