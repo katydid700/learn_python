@@ -1,5 +1,11 @@
 # coding=UTF-8
-
+"""
+Python 不会自动调用基类 SchoolMember 的构造函数
+你必须自己显式地调用它
+形如: SchoolMember.__init__(self, name, age)
+相反，如果我们没有在一个子类中定义一个 __init__ 方法
+Python 将会自动调用基类的构造函数
+"""
 class SchoolMember:
     """代表任何学校成员"""
     def __init__(self, name, age):

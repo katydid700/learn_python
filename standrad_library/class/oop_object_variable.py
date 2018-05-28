@@ -1,6 +1,14 @@
 # coding=UTF-8
+"""对象变量（Object variable）
+由类的每一个独立的对象或实例所拥有
+每个对象都拥有属于它自己的字段的副本
+也就是说，它们不会被共享
+也不会以任何方式与其它不同实例中的相同名称的字段产生关联
+"""
+
 
 class Robot:
+    "这个是类变量"
     population = 0
 
     def __init__(self, name):
@@ -24,6 +32,12 @@ class Robot:
         print("Greetings, my masters call me {}".format(self.name))
 
     @classmethod
+    """
+    how_many 实际上是一个属于类而非属于对象的方法
+    你可以将装饰器想象为调用一个包装器（Wrapper）函数的快捷方式
+    因此启用 @classmethod 装饰器等价于调用：
+    how_many = classmethod(how_many)
+    """
     def how_many(cls):
         """当前人口数量"""
         print("we have {:d} robots.".format(cls.population))
