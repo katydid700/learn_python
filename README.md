@@ -9,3 +9,5 @@ Written on May 23,2018.
 a note of <programming collective intelligence>
 I read this book because of the basic python I had learnt .
 It has a lot of instances to finish .
+
+Written on May 28,2018
