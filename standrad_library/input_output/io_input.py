@@ -1,4 +1,5 @@
 # coding=UTF-8
+
 import string
 def reverse(text):
     return text[::-1]
