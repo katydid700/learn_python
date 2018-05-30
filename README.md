@@ -15,3 +15,5 @@ Written on May 28,2018
 a note of <python for data analysis>.
 this book is for data analysis that I need to learn to analyze experimental data.
 unlike <programming collective intelligence> , this book is more professional for my work.
+
+Written on May 30,2018
