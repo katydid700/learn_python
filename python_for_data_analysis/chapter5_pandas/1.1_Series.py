@@ -29,6 +29,7 @@ print(obj2[obj2 > 0])
 "可以直接用dict数据创建Series"
 sdata = {'aaa':100, 'bbb':200, "ccc":300, "ddd":400}
 obj3 = pd.Series(sdata)
+print("obj3:")
 print(obj3)
 states = {'aaa', 'vvv', 'bbb', 'ccc', 'ddd'}
 obj4 = pd.Series(sdata, index=states)
